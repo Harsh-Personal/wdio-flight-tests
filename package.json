@@ -1,0 +1,29 @@
+{
+  "name": "wdio-flight-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@wdio/cli": "^6.1.22",
+    "chai": "^4.2.0",
+    "chromedriver": "^83.0.0",
+    "cucumber": "^6.0.5"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^6.1.22",
+    "@wdio/local-runner": "^6.1.23",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.23",
+    "@wdio/sync": "^6.1.14"
+  }
+}
